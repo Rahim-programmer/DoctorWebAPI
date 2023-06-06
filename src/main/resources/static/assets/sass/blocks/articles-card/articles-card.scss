@@ -1,0 +1,29 @@
+@import "./__link/_link";
+@import "./__text/_text";
+@import "./__title/_title";
+@import "./__wrapper/_wrapper";
+@import "./__link-text/_link-text";
+@import "./__icon/_icon";
+
+.articles-card {
+    display: grid;
+    max-width: 19em;
+    margin: 0;
+    margin-right: 2rem;
+    padding: 4.56rem 3rem 1.62rem 3.93rem;
+    background-color: $light-grey;
+    text-align: left;
+    @include border-radius;
+
+    &_last {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: $desktop-width) {
+    .articles-card {
+        max-width: 18rem;
+        margin-bottom: 2.5em;
+        margin-right: 0;
+    }
+}

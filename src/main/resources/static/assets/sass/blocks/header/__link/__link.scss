@@ -1,0 +1,9 @@
+.header__link {
+    padding: 20px 5px;
+    color: $grey;
+    text-decoration: none;
+
+    &:hover {
+        color: $black;
+    }
+}

@@ -1,0 +1,19 @@
+.about__img {
+    max-width: 33em;
+    max-height: 40em;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .about__img {
+        max-width: 16em;
+        max-height: 25em;
+        align-self: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .about__img {
+        max-width: 25em;
+        max-height: 30em;
+    }
+}

@@ -1,0 +1,14 @@
+@import "./__title/_title";
+
+.articles {
+    margin: 3rem 0 4rem;
+}
+
+@media (min-width: $mobile-width) and (max-width: $tablet-width) {
+    .articles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0;
+    }
+}

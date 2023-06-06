@@ -1,0 +1,10 @@
+.education-gallery__img {
+    width: 26vw;
+    height: 44vh;
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+    .education-gallery__img {
+        width: 42vh;
+    }
+}

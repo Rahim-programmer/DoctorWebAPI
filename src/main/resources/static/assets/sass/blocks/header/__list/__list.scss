@@ -1,0 +1,14 @@
+.header__list {
+    margin: 0;
+    margin-right: 4rem;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+@media (max-width: $desktop-width) {
+    .header__list {
+        display: none;
+    }
+}

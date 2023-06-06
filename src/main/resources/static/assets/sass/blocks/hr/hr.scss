@@ -1,0 +1,22 @@
+hr {
+    display: block;
+    width: 83%;
+    margin: 0 auto;
+    background-color: $dark-green;
+    border: none;
+    height: 3px;
+
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    hr {
+        display: none;
+        width: 19.12rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width:1024px) {
+    hr {
+        width: 73%;
+    }
+}

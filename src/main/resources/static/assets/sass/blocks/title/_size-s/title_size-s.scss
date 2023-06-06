@@ -1,0 +1,15 @@
+.title_size-s {
+    font-size: 1.8rem;
+    margin-top: 0;
+
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .title_size-s {
+        font-size: 22px;
+        font-family: inherit;
+        font-weight: 700;
+        text-align: center;
+    }
+}

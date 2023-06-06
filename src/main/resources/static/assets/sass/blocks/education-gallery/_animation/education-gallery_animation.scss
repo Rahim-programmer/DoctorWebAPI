@@ -1,0 +1,13 @@
+.education-gallery_animation {
+    transition: 1s;
+}
+
+.education-gallery_animation:hover {
+    transform: scale(1.2);
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .education-gallery_animation:hover {
+        transform: none;
+    }
+}

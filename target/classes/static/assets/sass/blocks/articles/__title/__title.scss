@@ -1,0 +1,10 @@
+.articles__title {
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+@media (max-width: $mobile-width) {
+    .articles__title {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,6 @@
+.article__title-wrapper {
+    padding: 30px;
+    margin-top: 20px;
+    background-color: $light-green;
+    @include border-radius;
+}

@@ -1,0 +1,13 @@
+.border-radius_color {
+    border: 3.5px solid $light-green;
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+    .border-radius_color {
+        border: 2.5px solid $light-green;
+
+    }
+}
